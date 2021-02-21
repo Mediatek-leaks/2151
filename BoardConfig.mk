@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/realme/rmx2151
+DEVICE_PATH := device/realme/RMX2151
 
 # Allow missing dependencies
 ALLOW_MISSING_DEPENDENCIES := true
