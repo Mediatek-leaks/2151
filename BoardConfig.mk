@@ -122,7 +122,7 @@ TW_INCLUDE_NTFS_3G := true
 TW_USE_TOOLBOX := true
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 TW_MAX_BRIGHTNESS := 2047
-TW_DEFAULT_BRIGHTNESS := 908
+TW_DEFAULT_BRIGHTNESS := 1200
 TW_Y_OFFSET := 100
 TW_H_OFFSET := -100
 TWRP_INCLUDE_LOGCAT := true
@@ -137,5 +137,6 @@ TW_OZIP_DECRYPT_KEY := "0000"
 TW_INCLUDE_LOGICAL := oppo_product oppo_engineering common_preload
 
 # PBRP specific build flags
-PB_TORCH_PATH := "/sys/class/flashlight_core/flashlight"
-PB_DISABLE_DEFAULT_TREBLE_COMP := true
+#PB_TORCH_PATH := "/sys/class/flashlight_core/flashlight"
+#PB_DISABLE_DEFAULT_TREBLE_COMP := true
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/system/etc/recovery.fstab
