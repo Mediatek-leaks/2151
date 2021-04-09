@@ -181,7 +181,7 @@ SHRP_FLASH := 1
 
 # Path
 
-SHRP_REC := /dev/block/bootdevice/by-name/recovery 
+SHRP_REC := /dev/block/by-name/recovery 
 
 
 
